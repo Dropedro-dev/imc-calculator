@@ -61,6 +61,7 @@ body {
 }
 .container .rightSide {
     flex: 1;
+    margin-left: 40px;
     display: flex;
 }
 
@@ -69,4 +70,28 @@ body {
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(2, 1fr);
+}
+
+.container .rightSide .rightBig {
+    flex: 1;
+    display: flex;
+}
+
+.container .rightSide .rightArrow {
+    position: absolute;
+    background-color: #227C90;
+    opacity: .8;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: -35px;
+    margin-top: 145px;
+    transition: all ease .5s;
+}
+.container .rightSide .rightArrow:hover {
+    opacity: 1;
 }
