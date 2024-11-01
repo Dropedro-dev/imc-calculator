@@ -29,3 +29,13 @@
     font-size: 12px;
     margin-top: 14px;
 }
+
+.yourImc p {
+    display: none;
+}
+
+@media (max-width: 770px) {
+    .yourImc p {
+        display: inline-block;
+    }
+}

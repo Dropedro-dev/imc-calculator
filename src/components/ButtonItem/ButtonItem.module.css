@@ -1,0 +1,15 @@
+.buttonStyle {
+    background-color: #38393e;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top: 40px;
+    padding: 15px 0;
+    width: 100%;
+    cursor: pointer;
+    transition: all ease .3s;
+}
+.buttonStyle:hover {
+    opacity: .7;
+}
+
